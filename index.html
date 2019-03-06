@@ -1,19 +1,22 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <link href="min.css" rel="stylesheet" />
-          <style>
-          body{
-              margin: 40px
-          }
-          </style>
+    <link href="min.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+    <script src="main.js" ></script>
 </head>
 <body>
-    <select>
-        <option>Div</option>
-        <option>Image</option>
-        <option>Button</option>
+    <select id="mySelector" onchange="displayFunc()">
+        <option value="div">div</option>
+        <option value="image">image</option>
+        <option value="button">button</option>
     </select>
-    <div>Sample Text</div>
-    <img src="http://lorempixel.com/400/400/cats">
-    <button>Sample Text</button>
+    <br /><br />
+    <textarea onchange="updateCSS()" id="userCSS">
+    </textarea>
+    <br /><br />
+    <div id="div">	Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Nyarlathotepoth Tsathoggua ah, hlirgh llll sgn'wahl stell'bsnayar y-ee naflDagon goka, nw lw'nafh kadishtu ehye lloig y-Azathoth mg. Tharanak ftaghuyar tharanak s'uhn n'gha li'hee shagg nog orr'e uh'e naflNyarlathotep ph'phlegeth, y'hah mg hrii fhtagn kn'a r'luh uh'eog hupadgh mnahn' hlirgh, ep ph'Tsathoggua naflmg nog ee syha'h fm'latgh gnaiihnyth cshogg syha'h. Athg ph'nog kadishtuog nw gotha h'hlirgh kn'a, hrii Chaugnar Faugn shugg ph'Dagon li'hee, ngsyha'h geb throd r'luh uaaah. Wgah'n zhro geb phlegeth lloig nnnuln uaaah llll, lloig nilgh'ri gnaiih geb mnahn' ngllll nnnnog, h'syha'h n'gha Yoggothyar llll y-n'gha athg. 
+
+        Hupadghor ftaghu Yoggoth ep nilgh'ri, ehye geb. </div>
+    <img id="image" style="display: none" src="http://lorempixel.com/400/400/cats">
+    <button id="button" style="display: none">Sample Text</button>
 </body>
