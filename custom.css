@@ -4,3 +4,8 @@ body{
 #userCSS{
     width: 100%;
 }
+#outputCode{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
