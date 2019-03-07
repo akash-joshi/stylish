@@ -21,10 +21,10 @@ const displayFunc = () => {
 const updateCSS = () => {
     let style = document.querySelector('#userCSS').value
     let name = document.querySelector('#compname').value
+    document.querySelector('#'+current).style = style;
     if(!name) name = 'NewComponent';
     style = style.replace(/\r/g,'<br/>');
     style = style.replace(/\n/g,'<br/>');
-    document.querySelector('#'+current).style = style;
     document.querySelector('#outputCode').innerHTML = codeBuilder(name,current,style)
 }
 
