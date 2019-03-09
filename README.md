@@ -1,2 +1,2 @@
 # styled-components-builder
-Build styled components visually
+🌠 Build styled components visually
