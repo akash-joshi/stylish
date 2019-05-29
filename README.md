@@ -1,5 +1,5 @@
 <div align = "center">
-<img src="https://raw.githubusercontent.com/shubham-saudolla/media/master/neural-color-picker/neuralColorPickerIcon.png" width = "200" />
+<img src="https://raw.githubusercontent.com/akash-joshi/stylish/master/logo.png" width = "200" />
 
 <h1>Stylish</h1>
 
