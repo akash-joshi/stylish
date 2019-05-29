@@ -1,11 +1,15 @@
 body{
-    margin: 40px
+    margin: 40px;
+    background: linear-gradient(to right, #ec6f66, #f3a183);
+}
+div {
+    color: white;
 }
 #userCSS{
     width: 100%;
 }
 #outputCode{
     padding: 10px;
-    border: solid 1px;
+    border: solid 1px #e4e4e4;
     border-radius: 10px;
 }

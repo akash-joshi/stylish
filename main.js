@@ -1,13 +1,11 @@
 let current = 'div'
-const codeBuilder = (name,type,style) => {
+const codeBuilder = (type,style) => {
     return `
     import styled from 'styled-components';<br/><br/>
 
-    const ${name} = styled.${type}\`<br/>
+    export default styled.${type}\`<br/>
         ${style}
     \`;<br/><br/>
-
-    export default ${name};
     `
 }
 
@@ -20,12 +18,10 @@ const displayFunc = () => {
 
 const updateCSS = () => {
     let style = document.querySelector('#userCSS').value
-    let name = document.querySelector('#compname').value
     document.querySelector('#'+current).style = style;
-    if(!name) name = 'NewComponent';
     style = style.replace(/\r/g,'<br/>');
     style = style.replace(/\n/g,'<br/>');
-    document.querySelector('#outputCode').innerHTML = codeBuilder(name,current,style)
+    document.querySelector('#outputCode').innerHTML = codeBuilder(current,style)
 }
 
 
