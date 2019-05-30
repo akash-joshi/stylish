@@ -5,6 +5,10 @@ body{
 div {
     color: white;
 }
+#copybut {
+    padding: 10px;
+    border-radius: 8px;
+}
 #userCSS{
     width: 100%;
 }
