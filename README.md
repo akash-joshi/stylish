@@ -12,12 +12,15 @@
 
 # Stylish
 
-🌠 An app to build styled components visually
+💅🌠 An app to build beautiful React styled components visually
 
 ---
 
-## Usage
+## Here's how to use it !
 
+You can't post videos on GitHub so here's a YouTube link 😉
+
+https://www.youtube.com/embed/QoNkr5fIecM
 
 ---
 
